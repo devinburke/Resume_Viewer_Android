@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:id = "@+id/questions_ll"
+    >
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="8"
+        android:background="@drawable/topbottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_xx"
+            android:id="@+id/tvxx"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_yy"
+            android:layout_toRightOf="@id/tvxx"
+            android:id="@+id/tvyy"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/back" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="80"
+        android:background="@drawable/background"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_question"
+            android:id="@+id/tvquestion"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:padding="16dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_answer"
+                    android:id="@+id/tvanswer"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:padding="15dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="12"
+        android:gravity = "center|center_horizontal"
+        android:background="@drawable/topbottom">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bleft"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_left"
+            />
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:id="@+id/showanswer"
+            android:background="@drawable/button_a"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bright"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_right" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frontpagelayout"
+    android:background="@drawable/lg"
+
+ >
+
+
+    <Button
+        android:id="@+id/bsq"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textSize = "35sp"
+        android:text="@string/sq"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="87dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp" />
+    <Button
+        android:id="@+id/btq"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textSize = "35sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_button"
+        android:text= "@string/tq"
+        android:layout_alignTop="@+id/bsq"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="92dp"
+        android:layout_marginEnd="92dp" />
+    <Button
+        android:id="@+id/other"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textSize = "35sp"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        android:text= "@string/seeother"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/bsq"
+        android:layout_alignStart="@+id/bsq" />
+    <Button
+        android:id="@+id/rate"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textSize = "35sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_button"
+        android:text= "@string/ra"
+        android:layout_alignTop="@+id/other"
+        android:layout_alignLeft="@+id/btq"
+        android:layout_alignStart="@+id/btq" />
+
+
+
+</RelativeLayout>

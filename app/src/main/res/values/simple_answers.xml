@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_answer">
+
+        <item>Dedicated to creating and managing innovative databases and programs while maintaining a high level of scalability. Assembled and improved multiple organizational databases at an architectural level. Lead multiple teams that worked on database administration and application development. </item>
+        <item>ER Modeling\nRelational Modeling\nNormalization\nDe-normalization\nDDL\nIndexing\nViews\nJDBC\nStored Procedures\nTrigger\nQuery Optimization\nACID practices</item>
+        <item>Ghant and Pert Charts using Microsoft Project\nCritcal Path Analysis\nResource Loading\nBudget Control\nSystem Development Life Cycle\nMicrosoft Project</item>
+        <item>Python\nJava\nPHP\nXML\nHTML\nJavaScript\nAndroid Studios\nJoomla\nMicroStrategy\nTableau\n\nGitHub Repository for This Application - https://github.com/devinburke/android_app_1</item>
+        <item>Application Development\n\nDeveloped and application design for Loyola student transportation system. Handled data collection, system requirements, integration with legacy system, and user interface design.
+            \n\n
+            Web Development\n\nCreated stock market analyzing website that used social media to determine trending stocks based off bullish and bearish principles. Web application included use of Joomla as CMS,
+            PHP for API interaction and database handling, MySQL for data storage and quality assurance, Python for sentimental analysis of incoming tweets, and Twitters Streaming API.
+        </item>
+        <item>Loyola University Chicago - Quinlan School of Business\nBachelor of Business Administration Information Systems
+        \n\nBach Khoa (Ho Chi Minh) - University of Technology\nStudy Abroad Vietnam Spring 2014 </item>
+        <item>Bizstrat Technology - Chicago IL\nMarch 2015 - June 2015\n\n-Reengineered data sets into tables and relations for user-interface software. Inserted data into database using JDBC for over 1 terabyte of data
+            \n\n-Created application with Excel VBA for internship team. Worked with management to ensure Excel application was standardized for UI software data insertion.
+            Created triggers and stored proceudes to check data integrity.\n\n-Tested data results through software and database queries on development server. Reported on
+            data integrity and error handling.
+        </item>
+        <item>Y.O.U - Evanston IL\nNovember 2014 - March 2015\n\n-Optimized HTML/PHP code for company intranet while cleaning markup documents, reducing redundancy and controlling compression of tags and styles for better interaction with database.  Worked closely with developer on back-end database designs and middle tier PHP code to handle forms and web content population.
+                \n\n-Created and maintained IT documentation which included policies, network diagrams and file management.
+            \n\n-Worked closely with business partners to determine software and hardware needs while delegating IT tickets. Organized current and future project proposals from developers and other IT partners.
+       </item>
+        <item>
+        Green Youth Collective - Ho Chi Minh, Vietnam\nJanuary 2014 - May 2014\n\n-Redesigned access databases into MySQL databases allowing information to be used in company intranet and website. Constructed new table relations and views to increase efficiency and security of supplier information while establishing queries for inventory control and ordering.
+                \n\n-Trained Vietnamese employees with regards to company website functions, database operations, and supply chain management practices. Taught basics of MS Office while reducing translational barriers within the company.
+    </item>
+        <item>
+            Disability Research and Capacity Development - Vietnam\n\n-Promoted awareness of disabled within Ho Chi Minh through arranging different events throughout Ho Chi Minh City, Vietnam. Worked closely with disabled to teach English and improve other skills.
+        </item>
+
+
+
+
+
+
+
+    </string-array>
+
+
+
+</resources>

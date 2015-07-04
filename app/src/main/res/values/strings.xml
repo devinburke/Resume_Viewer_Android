@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Creative Resume</string>
+    <string name="action_settings">Settings</string>
+
+    <string name = "sq">Skill Slides</string>
+    <string name = "tq">Full Resume</string>
+    <string name = "seeother">Other Apps</string>
+    <string name = "ra">Rate App</string>
+
+    <string name = "tv_xx">XX/</string>
+    <string name = "tv_yy">YY</string>
+    <string name = "tv_question">Skill</string>
+    <string name = "tv_answer">Press button below to show skills</string>
+    <string name = "greetings">Welcome</string>
+
+</resources>

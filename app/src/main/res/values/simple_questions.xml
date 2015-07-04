@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="simple_question"   >
+        <item>Mission Statement</item>
+        <item>Database Development</item>
+        <item>Project Management</item>
+        <item>Software and Languages</item>
+        <item>Relevent Experience</item>
+        <item>Education</item>
+        <item>Professional Experience #1</item>
+        <item>Professional Experience #2</item>
+        <item>Professional Experience #3</item>
+        <item>Volunteering and Leadership</item>
+
+
+
+    </string-array>
+
+
+
+
+
+
+</resources>
